@@ -45,6 +45,11 @@ h2 {
   color: hsl(0, 0%, 7%);
 }
 
+h2:active {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
 .main {
   color: hsl(0, 0%, 42%);
 }
