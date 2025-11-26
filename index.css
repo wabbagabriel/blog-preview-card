@@ -1,0 +1,64 @@
+body {
+  font-family: "Figtree", sans-serif;
+  margin: 0px;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+body p {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 360px;
+  margin: auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 2px black;
+}
+
+.article-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+input {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  color: hsl(0, 0%, 7%);
+}
+
+.main {
+  color: hsl(0, 0%, 42%);
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 30px;
+}
+
+.profile p {
+  font-weight: bold;
+}
